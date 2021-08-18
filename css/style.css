@@ -243,3 +243,54 @@ a {
   margin-bottom: 40px;
   line-height: 25px;
 }
+
+/* =================== Contact =================== */
+
+.contact {
+  background: rgb(60, 173, 212);
+  padding: 100px 0;
+  text-align: center;
+  color: #fff;
+}
+
+.contact-header {
+  margin-bottom: 60px;
+}
+
+.contact-header h2 {
+  font-size: 3em;
+  margin-bottom: 12px;
+}
+
+.contact-header p {
+  font-size: 1.5em;
+}
+
+.contact-content {
+  margin: 0 auto;
+  width: 80%;
+}
+
+input[type="text"],
+input[type="email"] {
+  border: none;
+  color: #444;
+  border-radius: 4px;
+  padding: 15px 10px;
+  outline: none;
+  width: 25%;
+  margin: 0 10px;
+}
+
+textarea {
+  border: none;
+  color: #444 !important;
+  border-radius: 4px;
+  padding: 15px 10px;
+  outline: none;
+  width: calc(50% + 44px);
+  margin: 40px 10px;
+  height: 200px;
+  font-family: "Raleway";
+  font-weight: 600;
+}
