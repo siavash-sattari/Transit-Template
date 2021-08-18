@@ -177,3 +177,69 @@ a {
   width: 90%;
   margin: 0 auto;
 }
+
+/* =================== About =================== */
+
+.about {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.about-header h2 {
+  font-size: 3em;
+  color: rgb(71, 71, 71);
+  margin-bottom: 12px;
+}
+
+.about-header p {
+  font-size: 1.5em;
+  color: rgb(133, 133, 133);
+}
+
+.about-content {
+  border-bottom: 1px solid rgba(144, 144, 144, 0.25);
+  border-top: 1px solid rgba(144, 144, 144, 0.25);
+  margin: 60px auto;
+  padding: 60px 0;
+  width: 80%;
+}
+
+.profile {
+  float: left;
+  width: 25%;
+}
+
+.about-content::after,
+.about-content::before {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.profile img {
+  float: left;
+  border-radius: 50%;
+}
+
+.profile h4 {
+  text-align: left;
+  margin-left: 110px;
+  margin-top: 30px;
+  font-size: 1em;
+}
+
+.profile p {
+  text-align: left;
+  margin-left: 110px;
+  line-height: 25px;
+}
+
+.about-footer {
+  width: 65%;
+  margin: 0 auto;
+}
+
+.about-footer p {
+  margin-bottom: 40px;
+  line-height: 25px;
+}
