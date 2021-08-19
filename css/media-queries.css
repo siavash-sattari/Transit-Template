@@ -4,7 +4,7 @@
   .profile:nth-child(1),
   .profile:nth-child(2),
   .profile:nth-child(3) {
-    width: 80% !important;
+    width: 100% !important;
     margin-bottom: 40px;
   }
 
