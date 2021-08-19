@@ -4,14 +4,17 @@
   .profile:nth-child(1),
   .profile:nth-child(2),
   .profile:nth-child(3) {
-    width: 100% !important;
+    width: 80% !important;
     margin-bottom: 40px;
-    margin-left: 85px;
   }
 
   .profile:nth-child(4) {
     width: 100% !important;
-    margin-left: 85px;
+  }
+
+  .about .about-footer .btn-big {
+    font-size: 17px;
+    padding: 17px 25px;
   }
 
   input[type="text"],
@@ -25,6 +28,11 @@
     width: 100% !important;
     margin: 0 0 40px 0;
     box-sizing: border-box;
+  }
+
+  .footer li {
+    margin: 0 25px;
+    font-size: 16px;
   }
 }
 
@@ -113,4 +121,14 @@
 /* Extra large devices (large desktops, 1200px and up) */
 
 @media (max-width: 1200px) {
+}
+
+/* ------------------------------------------ */
+
+@media (max-width: 576px) {
+  .services-header h2,
+  .about-header h2,
+  .contact-header h2 {
+    font-size: 1.6em !important;
+  }
 }

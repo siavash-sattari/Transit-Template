@@ -117,7 +117,7 @@ a {
 /* =================== Services =================== */
 
 .services {
-  padding: 100px 0;
+  padding: 50px 0;
   text-align: center;
   background: rgb(245, 245, 245);
   border-bottom: 1px solid rgba(144, 144, 144, 0.25);
@@ -195,7 +195,7 @@ a {
 /* =================== About =================== */
 
 .about {
-  padding: 100px 0;
+  padding: 50px 0;
   text-align: center;
 }
 
@@ -263,7 +263,7 @@ a {
 
 .contact {
   background: rgb(60, 173, 212);
-  padding: 100px 0;
+  padding: 50px 0;
   text-align: center;
   color: #fff;
 }
@@ -314,7 +314,7 @@ textarea {
 
 .footer {
   background: #383b43;
-  padding: 100px 0;
+  padding: 50px 0;
   text-align: center;
 }
 
