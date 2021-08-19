@@ -1,0 +1,116 @@
+/* Small devices (landscape phones, 576px and up) */
+
+@media (max-width: 576px) {
+  .profile:nth-child(1),
+  .profile:nth-child(2),
+  .profile:nth-child(3) {
+    width: 100% !important;
+    margin-bottom: 40px;
+    margin-left: 85px;
+  }
+
+  .profile:nth-child(4) {
+    width: 100% !important;
+    margin-left: 85px;
+  }
+
+  input[type="text"],
+  input[type="email"] {
+    width: 100% !important;
+    margin: 0 0 20px 0;
+    box-sizing: border-box;
+  }
+
+  textarea {
+    width: 100% !important;
+    margin: 0 0 40px 0;
+    box-sizing: border-box;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (max-width: 768px) {
+  .beurger-menu {
+    display: inline;
+  }
+
+  .nav ul {
+    display: none !important;
+  }
+
+  .banner-content h2 {
+    font-size: 2.5em !important;
+  }
+
+  .banner-content p {
+    font-size: 1.25em;
+    width: 80%;
+    margin: 0 auto 40px;
+  }
+
+  .services-header h2,
+  .about-header h2,
+  .contact-header h2 {
+    font-size: 1.8em !important;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+
+@media (max-width: 992px) {
+  .banner-content h2 {
+    font-size: 3.5em;
+  }
+
+  .services-header h2,
+  .about-header h2,
+  .contact-header h2 {
+    font-size: 2.25em;
+  }
+
+  .services-header p,
+  .about-header p,
+  .contact-header p,
+  .box p {
+    font-size: 1.25em;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .box {
+    width: 100%;
+    padding: 40px 0;
+    margin: 10px 0;
+  }
+
+  .profile:nth-child(1),
+  .profile:nth-child(2) {
+    width: 50%;
+    margin-bottom: 40px;
+  }
+
+  .profile:nth-child(3),
+  .profile:nth-child(4) {
+    width: 50%;
+  }
+
+  input[type="text"],
+  input[type="email"] {
+    width: 40%;
+  }
+
+  textarea {
+    width: calc(80% + 44px);
+  }
+
+  .footer li {
+    display: block;
+    padding: 5px 0;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (max-width: 1200px) {
+}

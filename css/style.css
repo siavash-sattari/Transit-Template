@@ -59,6 +59,20 @@ a {
   float: left;
 }
 
+.beurger-menu {
+  float: right;
+  border: none;
+  background: transparent;
+  color: #fff;
+  font-size: 25px;
+  display: none;
+  cursor: pointer;
+}
+
+.show {
+  display: inline !important;
+}
+
 .nav {
   float: right;
 }
@@ -81,7 +95,7 @@ a {
   background-image: url(../img/dark_tint.png), url(../img/bokeh_car_lights_bg.jpg);
   background-size: cover;
   background-position: center center;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .banner-content {
@@ -202,6 +216,7 @@ a {
   margin: 60px auto;
   padding: 60px 0;
   width: 80%;
+  text-align: center;
 }
 
 .profile {
