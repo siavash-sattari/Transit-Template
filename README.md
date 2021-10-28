@@ -1,4 +1,4 @@
-# Product-Manager 
+# Transit-Template 
 
 ## [DEMO](https://transit-template.netlify.app)
 
